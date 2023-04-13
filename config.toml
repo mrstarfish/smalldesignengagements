@@ -35,7 +35,7 @@ googleAnalytics = ""
   url = "/"
   weight = 1
   [[menu.main]]
-  name = "About"
+  name = "Something Different"
   url = "/about/"
   weight = 2
 
