@@ -35,9 +35,18 @@ googleAnalytics = ""
   url = "/"
   weight = 1
   [[menu.main]]
-  name = "Something Different"
-  url = "/about/"
+  name = "Past Projects"
+  url = "/"
   weight = 2
+    [[menu.main]]
+  name = "IDEAS - My Service Design Framework"
+  url = "/about/"
+  weight = 3
+    [[menu.main]]
+  name = "Start an Engagement"
+  url = "/about/"
+  weight = 4
+
 
 [social]
   github = "https://github.com/RainerChiang"
