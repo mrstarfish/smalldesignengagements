@@ -3,7 +3,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 theme = "simpleness"
 
-title = "Rainer Chiang"
+title = "Small Design Engagements"
 enableInlineShortcodes = true
 enableEmoji = true
 googleAnalytics = ""
