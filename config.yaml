@@ -2,7 +2,7 @@ baseURL: https://mellow-monstera-5faef7.netlify.app/
 languageCode: en-us
 defaultContentLanguage: en
 title: Small Design Engagements
-theme: Small Design Engagements
+theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
 enableGitInfo: true
