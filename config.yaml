@@ -18,7 +18,7 @@ imaging:
 
 params:
   description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. 
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  homeMetaContent: Design and ICT engagements for governments and organisations
   footer: Copyright 2023 Small Design Engagements Pty Ltd
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
