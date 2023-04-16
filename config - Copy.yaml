@@ -1,7 +1,7 @@
 baseURL: https://mellow-monstera-5faef7.netlify.app/
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: Small Design Engagements
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
@@ -18,7 +18,7 @@ imaging:
 
 params:
   description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. 
-  homeMetaContent: Small Design Engagements
+  homeMetaContent: Design and ICT engagements for governments and organisations
   footer: Copyright 2023 Small Design Engagements Pty Ltd
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
@@ -50,7 +50,7 @@ menu:
     - name: Blog
       url: /post/
       weight: 2
-    - name: Tags
+    - name: Our Design Framework
       url: /tags/
       weight: 3
     - name: About
