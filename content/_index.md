@@ -3,12 +3,12 @@ date: "2017-06-26T18:27:58+01:00"
 title: "Home"
 ---
 
-Welcome to Small Design Engagements. 
-
-We use the IDEAS Design Framework to deliver design capabilities to our clients. We specialise in the following: 
+Welcome to Small Design Engagements
 
 {{< ticks >}}
-* Business Analysis services 
-* Human-Centered Design 
-* Procurement 
+* Screen reader and keyboard accessible
+* Responsive
+* Numerous shortcodes
+* Toggleable dark theme
+* Toggleable table of contents per blog post
 {{< /ticks >}}
