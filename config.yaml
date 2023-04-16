@@ -50,7 +50,7 @@ menu:
     - name: Past Projects
       url: /post/
       weight: 2
-    - name: IDEAS - Our Design Framework 
+    - name: Our Design Framework 
       url: /tags/
       weight: 3
     - name: Contact
