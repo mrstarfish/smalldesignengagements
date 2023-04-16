@@ -5,6 +5,8 @@ title: "Home"
 
 Welcome to Small Design Engagements. We use our propriety Service Design framework (called the IDEAS Framework) to deliver short, cost-effective engagements to our clients. 
 
+Within this framework, we offer the following services: 
+
 {{< ticks >}}
 * Business analysis
 * ICT design
