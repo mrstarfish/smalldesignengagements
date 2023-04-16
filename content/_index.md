@@ -6,9 +6,8 @@ title: "Home"
 Welcome to Small Design Engagements
 
 {{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-* Numerous shortcodes
-* Toggleable dark theme
-* Toggleable table of contents per blog post
+* Business analysis
+* ICT design
+* Human-centred design
+* Procurement
 {{< /ticks >}}
