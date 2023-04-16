@@ -19,7 +19,7 @@ imaging:
 params:
   description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. 
   homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Copyright 2023 Small Design Engagements Pty Ltd
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
@@ -53,12 +53,15 @@ menu:
     - name: Our Design Framework
       url: /tags/
       weight: 3
+      - name: Our Design Framework
+      url: /tags/
+      weight: 4
     - name: About
       url: /about/
-      weight: 4
+      weight: 5
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark
