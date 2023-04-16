@@ -1,24 +1,16 @@
 ---
-title: Something Different
-date: 2020-09-22T10:37:58+05:30
-lastmod: 
-author: Rainer Chiang
-
-description: 
-categories: []
-tags: []
-
-draft: false
-enableDisqus : true
-enableMathJax: false
-disableToC: false
-disableAutoCollapse: true
+date: "2014-04-09"
+title: "About"
 ---
 
-## About Yourself
+Hugo is the **world’s fastest framework for building websites**. It is written in Go.
 
-This is some static page where you can write about yourself. Where are we getting content from? 
+It makes use of a variety of open source projects including:
 
-## hugo theme [simpleness](https://github.com/RainerChiang/simpleness)
+* https://github.com/russross/blackfriday
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
-A hugo theme ported form [contrast-hugo](https://github.com/niklasbuschmann/contrast-hugo)
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
