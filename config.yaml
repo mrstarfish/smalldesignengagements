@@ -50,7 +50,7 @@ menu:
     - name: Blog
       url: /post/
       weight: 2
-    - name: Our Design Framework 
+    - name: Our Design Framework
       url: /tags/
       weight: 3
     - name: Contact
