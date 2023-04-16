@@ -53,8 +53,8 @@ menu:
     - name: Our Design Framework
       url: /tags/
       weight: 3
-    - name: About
-      url: /about/
+    - name: Start engagement
+      url: /contact/
       weight: 4
     - name: RSS
       url: /index.xml
