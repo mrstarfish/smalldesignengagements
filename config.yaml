@@ -50,17 +50,14 @@ menu:
     - name: Blog
       url: /post/
       weight: 2
-<<<<<<< HEAD
     - name: Our Design Framework 
       url: /tags/
       weight: 3
     - name: Contact
-=======
     - name: Tags
       url: /tags/
       weight: 3
     - name: About
->>>>>>> parent of b93b918 (Update config.yaml)
       url: /about/
       weight: 4
     - name: RSS
