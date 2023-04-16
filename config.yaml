@@ -17,7 +17,7 @@ imaging:
   quality: 99
 
 params:
-  description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. To start, write to contact@smalldesignengagements.com 
+  description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. <a href="mailto:contact@smalldesignengagements.com"> Start an engagement with us </a>
   homeMetaContent: Small Design Engagements
   footer: Copyright 2023 Small Design Engagements Pty Ltd
   # For more date formats see https://gohugo.io/functions/format/
