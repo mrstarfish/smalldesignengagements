@@ -1,28 +1,18 @@
 {{ define "main" }}
-{{ $Pages := .Pages }}
-{{ $home := .IsHome }}
-{{ if .IsHome }}
-  {{ $Pages = where site.RegularPages "Type" "in" .Site.Params.mainSections }}
-{{ end }}
-
-
-  {{ if not .IsHome }}
-  <header style="text-align: center;">
-    <h1>
-      {{ .Title }}
-    </h1>
-  </header>
+<main id="main">
+  <h1>{{ .Title }}</h1>
+  {{ if site.Params.search }}
+  <input
+    id="search"
+    type="text"
+    placeholder="{{ T "search_placeholder" }}"
+    aria-label="{{ T "search_aria_label" }}"
+  />
   {{ end }}
- 
-  {{ range $Pages.GroupByDate "2006" }}
-    <h2 class="archive-year">{{ .Key }}</h2>
-  
-    {{ range .Pages.GroupByDate "January"}} <!-- .Pages in $Pages -->
-    {{ range .Pages }}
-   
-      {{ if .Date }}
-
-        <h3>
+  <ul class="patterns-list" id="list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <li>
+      <h2>
         <a href="{{ .RelPermalink }}">
           <svg
             class="bookmark"
@@ -35,12 +25,8 @@
           {{ .Title }}
         </a>
       </h2>
-      {{ end }}
-
-      {{ end }}
+    </li>
     {{ end }}
-    
-  {{ end }}
- 
-
+  </ul>
+</main>
 {{ end }}
