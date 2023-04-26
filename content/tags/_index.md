@@ -1,3 +1,3 @@
 ---
-title: "IDEAS Framework"
+title: IDEAS Framework
 ---
