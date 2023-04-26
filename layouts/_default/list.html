@@ -4,7 +4,6 @@
 {{ if .IsHome }}
   {{ $Pages = where site.RegularPages "Type" "in" .Site.Params.mainSections }}
 {{ end }}
-
 <article class="archive">
   {{ if not .IsHome }}
   <header style="text-align: center;">
@@ -28,6 +27,14 @@
       {{ end }}
     {{ end }}
     </ul>
+     <ul>
+      {{ range where .Site.RegularPages ".Params.tags" "intersect" (slice "projects")}}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+ 
   {{ end }}
   </div>
 </article>
