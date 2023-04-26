@@ -1,13 +1,11 @@
 ---
-title: "cmd Test"
+title: "2009 American Express Root Cause Analysis Project"
 date: 2020-08-04T21:05:05-05:00
-tags: [1 - Investigate, 2 - Define, 3 - Execute, 4 - Adopt, 5 - Source, Past projects]
+tags: [Past projects]
 ---
 
-Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/42
+Project dates: June 2009 to April 2010.
 
-{{< cmd >}}
-Line 1
-Line 2
-Line 3
-{{</ cmd >}}
+This is a blurb on the 2009 American Express Root Cause Analysis project. At some point I will create a better template.
+
+It will have links to de-identified templates if I have them; if not, just a case study description.
