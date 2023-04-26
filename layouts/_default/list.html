@@ -27,14 +27,6 @@
       {{ end }}
     {{ end }}
     </ul>
-     <ul>
-      {{ range where .Site.RegularPages ".Params.tags" "intersect" (slice "projects")}}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
- 
   {{ end }}
   </div>
 </article>
