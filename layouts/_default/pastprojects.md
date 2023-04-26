@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "main" }} 
 <main id="main">
   <h1>{{ .Title }}</h1>
   {{ if site.Params.search }}
