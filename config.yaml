@@ -49,7 +49,7 @@ menu:
       url: /
       weight: 1
     - name: Past Projects
-      url: /post/past-projects/
+      url: /tags/past-projects/
       weight: 2
     - name: Our Design Framework
       url: /tags/
