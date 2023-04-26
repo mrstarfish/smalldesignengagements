@@ -9,6 +9,7 @@ enableGitInfo: true
 
 taxonomies:
   tag: tags
+  pastproject: pastprojects
 
 permalinks:
   post: /:filename/
