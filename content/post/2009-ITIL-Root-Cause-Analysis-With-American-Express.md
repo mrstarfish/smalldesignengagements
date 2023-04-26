@@ -1,7 +1,7 @@
 ---
 title: "2009 American Express Root Cause Analysis Project"
 date: 2020-08-04T21:05:05-05:00
-tags: [Past projects]
+tags: [1 - Investigate, 2 - Define, 3 - Execute, 4 - Adopt, 5 - Source, Past projects]
 ---
 
 Project dates: June 2009 to April 2010.
