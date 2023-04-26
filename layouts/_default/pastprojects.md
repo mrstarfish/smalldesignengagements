@@ -28,6 +28,10 @@
       {{ end }}
     {{ end }}
     </ul>
+
+{{ $p := slice "africa" }}
+{{ range where .Data.Pages.ByTitle "Params.tags" "intersect" $p}}
+    
   {{ end }}
   </div>
 </article>
