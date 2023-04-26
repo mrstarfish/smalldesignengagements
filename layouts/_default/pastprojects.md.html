@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main id="main">
+  <h1>{{ .Title }}</h1>
+  {{ if site.Params.search }}
+  <input
+    id="search"
+    type="text"
+    placeholder="{{ T "search_placeholder" }}"
+    aria-label="{{ T "search_aria_label" }}"
+  />
+  {{ end }}
+  <ul class="patterns-list" id="list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <li>
+      <h2>
+        <a href="{{ .RelPermalink }}">
+          <svg
+            class="bookmark"
+            aria-hidden="true"
+            viewBox="0 0 40 50"
+            focusable="false"
+          >
+            <use href="#bookmark"></use>
+          </svg>
+          {{ .Title }}
+		  
+		      <ul>
+    {{ range .Pages.GroupByDate "January"}} <!-- .Pages in $Pages -->
+    {{ range .Pages }}
+      <li class="archive-item">
+      {{ if .Date }}
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
+	
+		  
+		  
+        </a>
+      </h2>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
