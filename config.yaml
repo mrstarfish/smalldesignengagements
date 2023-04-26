@@ -9,7 +9,6 @@ enableGitInfo: true
 
 taxonomies:
   tag: tags
-  pastproject: pastprojects
 
 permalinks:
   post: /:filename/
@@ -18,7 +17,7 @@ imaging:
   quality: 99
 
 params:
-  description: Our mission is to deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. </br></br><b><a href="mailto:contact@smalldesignengagements.com"> Start an engagement with us </a></b>
+  description: We deliver and inspire best practice business analysis, ICT, procurement and human-centered design strategy to governments and organisations. We acheive this through short, cost-effective engagements, often before a project commences. </br></br><b><a href="mailto:contact@smalldesignengagements.com"> Start an engagement with us </a></b>
   homeMetaContent: Small Design Engagements
   footer: Copyright 2023 Small Design Engagements Pty Ltd
   # For more date formats see https://gohugo.io/functions/format/
